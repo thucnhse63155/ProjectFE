@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    background-color: lightgray!important;
+    font-family: sans-serif;
+}
+h1,h2,h3 {
+    font-weight: bold!important;
+}
+.header{
+    background-color: white;
+    height: 50px;
+    padding-top: 15px;
+}
+.left-header{
+    float: left;
+}
+.header ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+.right-header{
+    float: right;
+    margin-right: 120px;
+}
+.banner{
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/ltp/img/lodging.png");
+    color: white;
+    background-size: cover;
+    width: auto;
+    height: 400px;
+    padding: 8% 0 0 4%;
+    box-sizing: border-box;
+}
+.banner h1, h4{
+    margin: 5px;
+}
+.img-list h3  {
+    margin-left: 40px;
+}
+.img-list p  {
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+.img-box div{
+    float: left;
+}
+.img-box1 {
+    width: 66%;
+    float: left;
+    box-sizing: border-box;
+}
+.img-box1 img {
+    margin: 0px 0px 20px 20px;
+    width: 45%;
+}
+.img-box2 {
+    float: left;
+    box-sizing: border-box;
+    width: 33%;
+    height: 100%;
+}
+.img-box2 img{
+    width: 90%;
+    height: 100%;
+}
+.footer{
+    float: left;
+    margin-top: 50px;
+}
+.footer div{
+    background-color: azure;
+    padding: 0px 30px 50px 30px;
+    width: 33.3%;
+    float: left;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: underline!important;
+}
+
+/* Responsive */
+
+@media (min-width:992px) {
+  
+    .banner h1 {
+        margin-bottom: 30px;
+    }
+    .img-box2 img{
+        width: 90%;
+    }
+}
+
+@media (max-width:991px) {
+   .header{
+        background-color: dimgrey;
+        color: white;
+    } 
+     .banner{
+        background-color: white;
+        color: black;
+        background-image: none;
+        height: 200px;
+    } 
+    .banner h4 {
+        border-bottom: 1px solid darkgray;
+        padding-bottom: 50px;
+    }
+    .img-box2 img{
+        width: 45%;
+        margin: 0px 0px 20px 20px;
+    }
+    body{
+        background-color: white!important;
+    }
+    .footer{
+        margin-left: 20px;
+    }
+    .footer div{
+        float: none;
+        background-color: white;
+        width: 100%;
+    }
+}
+
+@media (max-width:767px) {
+    .img-box1 img{
+        width: 80%;
+    }
+    .banner h4 {
+        border-bottom: none;
+        padding-bottom: 50px;
+    }
+    .img-box1, .img-box2{
+        text-align: center;
+    }
+    .img-box2 img{
+        width: 80%;
+    }
+    .right-header{
+        margin-right: 50px;
+    }
+ }
