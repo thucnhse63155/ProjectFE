@@ -1,0 +1,43 @@
+
+body{
+    margin: 0;
+}
+.carousel-item {
+    height: 65vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .jumbotron{
+      height: 300px;
+      background-image: url("./../background.jpg");
+      background-size: cover;
+      background-position: center;
+  }
+ .img-thumbnail{
+     height: 300px;
+     width: 300px;
+ }
+ .container{
+     margin-bottom: 20px;
+ }
+ .nav-link{
+    color: white;
+ }
+
+ .login-container{
+     height: 600px;
+     padding-top: 150px;
+     /* margin-top: 150px; */
+ }
+ .signup-container{
+    height: 600px;
+    padding-top: 100px;
+ }
+ .about_us_header{
+    margin-top: 100px;
+    background-color: darkolivegreen;
+ }
